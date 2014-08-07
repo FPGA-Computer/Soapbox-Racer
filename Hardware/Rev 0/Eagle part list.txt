@@ -1,0 +1,322 @@
+Partlist
+
+Exported from FPGA Computer Rev15 Rel 0.sch at 24/07/2014 10:53:16 AM
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value                 Device                 Package               Library               Sheet
+
+C1       0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    1
+C2       0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    1
+C3       0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    1
+C4       0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    1
+C5       10uF                  CAPACITOR_0805N        CAP2012X70N           ipc-7351-capacitor    1
+C6       100uF                 POLARISED_D_CASE       CAPMP7343X310N        ipc-7351-capacitor    1
+C7       6n8                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    1
+C8       10uF                  CAPACITOR_0805N        CAP2012X70N           ipc-7351-capacitor    1
+C9       10uF                  CAPACITOR_0805N        CAP2012X70N           ipc-7351-capacitor    1
+C10      100pF                 CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    1
+C11      100pF                 CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    1
+C12      10uF                  CAPACITOR_0805N        CAP2012X70N           ipc-7351-capacitor    1
+C13      10uF                  CAPACITOR_0805N        CAP2012X70N           ipc-7351-capacitor    1
+C14      10uF                  CAPACITOR_0805N        CAP2012X70N           ipc-7351-capacitor    1
+C15      100uF                 POLARISED_D_CASE       CAPMP7343X310N        ipc-7351-capacitor    1
+C16      1uF                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    1
+C17      1uF                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    1
+C18      10uF                  CAPACITOR_0805N        CAP2012X70N           ipc-7351-capacitor    1
+C19      470uF                 CAP_POL                E2,5-6E               Misc Passives         1
+C20      1uF                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    1
+C21      1uF                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    1
+C22      1uF                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    1
+C23      10uF                  CAPACITOR_0805N        CAP2012X70N           ipc-7351-capacitor    2
+C24      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    2
+C25      10uF                  POLARISED_B_CASE       CAPMP3528X210N        ipc-7351-capacitor    2
+C26      1uF                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    2
+C27      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    2
+C28      10uF                  CPOL-EUE2-5            E2-5                  rcl                   2
+C29      10uF                  CPOL-EUE2-5            E2-5                  rcl                   2
+C30      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    2
+C31      10uF                  POLARISED_B_CASE       CAPMP3528X210N        ipc-7351-capacitor    2
+C32      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    2
+C33      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    2
+C34      2u2                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    2
+C35      2u2                   C-PR-1,0X3             E1,0-3                Misc Passives         2
+C36      2u2                   C-PR-1,0X3             E1,0-3                Misc Passives         2
+C37      1uF                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    2
+C38      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    2
+C39      1uF                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    2
+C40      1uF                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    2
+C41      10uF                  CAPACITOR_0805N        CAP2012X70N           ipc-7351-capacitor    2
+C42      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    2
+C43      15pF                  CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    3
+C44      15pF                  CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    3
+C45      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    3
+C46      10uF                  CAPACITOR_0805N        CAP2012X70N           ipc-7351-capacitor    3
+C47      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    3
+C48      NC                    CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    3
+C50      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    3
+C51      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    3
+C52      6n8                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    3
+C53      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    3
+C54      6n8                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    3
+C55      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    3
+C56      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    3
+C57      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    3
+C58      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    3
+C59      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    3
+C60      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    3
+C61      1uF                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    4
+C62      2u2                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    4
+C63      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    4
+C64      PAS311HRVG1           PAS311HRVG1            311HR-VG1             Misc Passives         4
+C65      NC                    CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    4
+C66      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    4
+C67      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    4
+C68      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    4
+C69      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C70      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    5
+C71      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C72      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C73      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C74      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C75      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C76      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C77      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C78      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C79      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C80      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C81      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C82      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C83      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C84      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    5
+C85      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    5
+C86      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C87      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C88      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C89      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C90      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    5
+C91      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C92      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C93      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    5
+C94      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C95      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C96      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    5
+C97      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C98      0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C99      0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    5
+C100     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C101     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C102     0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    5
+C103     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C104     0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    5
+C105     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C106     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    5
+C107     0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    5
+C108     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C109     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C110     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C111     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C112     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C113     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C114     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C115     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C116     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C117     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C118     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C119     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C120     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C121     1uF                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    6
+C122     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C123     0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    6
+C124     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C125     0u1                   CAPACITOR_0402         CAPC1005X60N          ipc-7351-capacitor    6
+C126     0u1                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    6
+C127     1uF                   CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    6
+C128     NC                    CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    6
+C129     NC                    CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    6
+C130     NC                    CAPACITOR_0603         CAPC1608X92N          ipc-7351-capacitor    6
+D1       NC                    DUAL-LED3MM            LED3MM                Misc opto             1
+D2       SM1204BC-A/G          1204-SIDE-DUAL-AG      LED_1204              Misc opto             1
+D3       RB751S40              DIODE-SOD523           SOD523                diode                 1
+D4       MM3Z3V0B              ZENER_SOD-323          SOD2514X100N          ipc-7351-diode        4
+D5       BAT54CW               A2K_SOT-323            SOT65P210X110-3N      Misc Passives         4
+D6       BAT54CW               A2K_SOT-323            SOT65P210X110-3N      Misc Passives         4
+D7       BAT54CW               A2K_SOT-323            SOT65P210X110-3N      Misc Passives         4
+D8       RB751S40              DIODE-SOD523           SOD523                diode                 4
+D9       RB751S40              DIODE-SOD523           SOD523                diode                 4
+D10      BAT54CW               A2K_SOT-323            SOT65P210X110-3N      Misc Passives         5
+H1       MOUNT-PAD-ROUND3.2-NP MOUNT-PAD-ROUND3.2-NP  3.2-PAD-NP            FPGA board Rev10      1
+H2       MOUNT-PAD-ROUND3.2-NP MOUNT-PAD-ROUND3.2-NP  3.2-PAD-NP            FPGA board Rev10      1
+H3       MOUNT-PAD-ROUND3.2-NP MOUNT-PAD-ROUND3.2-NP  3.2-PAD-NP            FPGA board Rev10      1
+H4       MOUNT-PAD-ROUND3.2-NP MOUNT-PAD-ROUND3.2-NP  3.2-PAD-NP            FPGA board Rev10      1
+J1       DCJ0202PIN            DCJ0202PIN             PJ-102A               Misc Conn             1
+J2                             PINHD-2X5_2.54-W/PLUG  2X05-W_PLUG           Misc Conn             2
+J3                             PINHD-2X5_2.54-W/PLUG  2X05-W_PLUG           Misc Conn             2
+J4                             MINI_DIN_6             M_DIN6                Misc Conn             2
+J5       TE-1932739            TE-1932739             TE-1932739            Misc Conn             2
+J6       STX-4235              STX-4235               STX-4235-3            Misc Conn             2
+J7       HR911105A             HR911105A              HR911105A             Misc Conn             3
+J8       USB_A-VERTICAL        USB_A-VERTICAL         USB-A-HU              Misc Conn             4
+J9       5179031               5179031                TE-5179031-1          Misc Conn             5
+J10      DB15H-S               DB15H-S                DB15HS                Misc Conn             6
+JP1      SCREW-TERM_3.5MM      SCREW-TERM_3.5MM       SCREWTERMINAL-3.5MM-2 Misc Conn             1
+JP2      nc                    PINHD-2X3_2.54-90°     2X03-90               Misc Conn             1
+JP3      NC                    PINHD-1X6_2.00         1X06M                 pinhead-1             2
+JP4                            PINHD-2X3_2.54-ROUND   2X03-RND              Misc Conn             3
+JP5                            PINHD-2X22_2.00-W/PLUG 2X22M-W_PLUG          Misc Conn             3
+JP6                            PINHD-2X4              2X04                  Misc Conn             4
+JP7                            PINHD-2X3_2.54-ROUND   2X03-RND              Misc Conn             5
+L1       CIS21J121NE           RESISTOR_0805          RESC2012X70N          ipc-7351-resistor     1
+L2       NRS40182R2            NRS4018                NR4018                Misc Inductors        1
+L3       NRS40184R7            NRS4018                NR4018                Misc Inductors        1
+L4       600R                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     2
+L5       600R                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     5
+L6       600R                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     5
+L7       600R                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     5
+L8       600R                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     6
+L9       600R                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     6
+PTC1     1206L110TH            PTC1206                1206                  microbuilder          1
+PTC2     1206L110TH            PTC1206                1206                  microbuilder          1
+PTC3     1206L035YR            PTC1206                1206                  microbuilder          1
+PTC4     0ZCJ0005FF2E          PTC1206                1206                  microbuilder          2
+Q1       2N7002                MOSFET-NCH_SOT-23      SOT95P280X135-3N      ipc-7351-transistor   1
+R1       1K2                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     1
+R2       4K7                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     1
+R3       1K2                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     1
+R4       100K                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     1
+R5       100K                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     1
+R6       540K                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     1
+R7       120K                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     1
+R8       5R1                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     2
+R9       51R                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     2
+R10      10K                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     2
+R11      82K                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     2
+R12      10K                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     3
+R13      10R                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     3
+R14      10R                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     3
+R15      12.4K 1%              RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     3
+R16      330R                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     3
+R17      330R                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     3
+R18      10R                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     3
+R19      4K7                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     3
+R20      10K                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     3
+R21      5K6                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     3
+R22      10K                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     3
+R23      10K                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     4
+R24      10k                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     4
+R25      120R                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     4
+R26      10K                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     4
+R27      120R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     5
+R28      120R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     5
+R29      120R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     5
+R30      120R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     5
+R31      120R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     5
+R32      120R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     5
+R33      NC                    RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     5
+R34      51R                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     5
+R35      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R36      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R37      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R38      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R39      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R40      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R41      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R42      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R43      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R44      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R45      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R46      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R47      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R48      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R49      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R50      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R51      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R52      442R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R53      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R54      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R55      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R56      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R57      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R58      499                   RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R59      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R60      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R61      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R62      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R63      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R64      499R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R65      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R66      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R67      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R68      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R69      249R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R70      499R                  RESISTOR_0402          RESC1005X40AN         ipc-7351-resistor     6
+R71      75R                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     6
+R72      75R                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     6
+R73      75R                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     6
+R74      75R                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     6
+R75      75R                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     6
+R76      75R                   RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     6
+R77      100R                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     6
+R78      100R                  RESISTOR_0603          RESC1608X55N          ipc-7351-resistor     6
+RN1      1K                    4R-NCAT16              CAT16                 Misc Passives         1
+RN2      4K7                   4R-NCAT16              CAT16                 Misc Passives         2
+RN3      4K7                   4R-NCAT16              CAT16                 Misc Passives         2
+RN4      51R                   4R-NCAT16              CAT16                 Misc Passives         2
+RN5      330R                  4R-NCAT16              CAT16                 Misc Passives         2
+RN6      4K7                   4R-NCAT16              CAT16                 Misc Passives         2
+RN7      82R                   4R-NCAT16              CAT16                 Misc Passives         3
+RN8      51R                   2R-NEXBV4V             EXBV4V                Misc Passives         3
+RN9      51R                   2R-NEXBV4V             EXBV4V                Misc Passives         3
+RN10     33R                   4R-NCAT16              CAT16                 Misc Passives         3
+RN11     33R                   4R-NCAT16              CAT16                 Misc Passives         3
+RN12     33R                   4R-NCAT16              CAT16                 Misc Passives         3
+RN13     33R                   4R-NCAT16              CAT16                 Misc Passives         3
+RN14     82R                   4R-NCAT16              CAT16                 Misc Passives         3
+RN15     33R                   4R-NCAT16              CAT16                 Misc Passives         3
+RN16     33R                   4R-NCAT16              CAT16                 Misc Passives         3
+RN17     51R                   4R-NCAT16              CAT16                 Misc Passives         4
+RN18     51R                   4R-NCAT16              CAT16                 Misc Passives         4
+RN19     49R9                  2R-NEXBV4V             EXBV4V                Misc Passives         4
+RN20     51R                   4R-NCAT16              CAT16                 Misc Passives         5
+RN21     51R                   4R-NCAT16              CAT16                 Misc Passives         5
+RN22     51R                   4R-NCAT16              CAT16                 Misc Passives         5
+RN23     10K                   4R-NCAT16              CAT16                 Misc Passives         5
+RN24     56R                   2R-NEXBV4V             EXBV4V                Misc Passives         6
+RN25     56R                   2R-NEXBV4V             EXBV4V                Misc Passives         6
+S1                             MOM_SW-RTPTS635V       PTS635V               Misc Passives         1
+TP1      TPSQTP07R             TPSQTP07R              TP07R                 testpad               1
+TP2      TPSQTP07R             TPSQTP07R              TP07R                 testpad               1
+TP3      TPSQTP07R             TPSQTP07R              TP07R                 testpad               1
+TP4      TPSQTP07R             TPSQTP07R              TP07R                 testpad               1
+TP5      TPSQTP07R             TPSQTP07R              TP07R                 testpad               1
+TP6      TPSQTP07R             TPSQTP07R              TP07R                 testpad               2
+TP7      TPSQTP07R             TPSQTP07R              TP07R                 testpad               2
+TP8      TPSQTP07R             TPSQTP07R              TP07R                 testpad               2
+TP9      TPSQTP07R             TPSQTP07R              TP07R                 testpad               2
+U1       74LVC1G11DCK          74LVC1G11DCK           SC70-6                Misc Logic            1
+U2       NC(74LVC1G04DBV)      74LVC1G04DBV           SOT23-5               74xx-little-us        1
+U3       AP25X1MP              AP25X1MP               MSOP8-PAD             Misc Power            1
+U4       TCM809XXNB            TCM809XXNB             SOT95P280X135-3N      Misc Power            1
+U5       PAM2306D              PAM2306D               PAM2306D              Misc Power            1
+U6       MCP1700T-2502E/TT     MCP1700/TT             SOT95P280X135-3N      Misc Power            1
+U7       MCP1700T-3002E/TT     MCP1700/TT             SOT95P280X135-3N      Misc Power            1
+U8       TLV70033              LDO-5                  SOT23-5               Misc Power            2
+U9       AK4556VT              AK4556VT               TSSOP20               Misc Analog           2
+U10      XRA1201L24            XRA1201L24             S-PQFP-N24-PAD        Misc Peripherals      2
+U11      TPA6139A2PW           TPA6139A2PW            TSSOP14               Misc Analog           2
+U12      TLV70033              LDO-5                  SOT23-5               Misc Power            2
+U13      S25FL127SABMFI10_     25LC080SN              SO-08                 Misc Memory           2
+U14      XC9572XL              XC9572VQ64             TQFP64                Misc PLD              3
+U15      ENC624J600/PT         ENC624J600/PT          TQFP64                Misc Peripherals      3
+U16      74LVC3G17DCU          74LVC3G17DCU           MAB08A                Misc Logic            3
+U17      MK22DX256VLF5         MK22DX_VLF             TQFP48                Misc Processor        4
+U18      IS42S32800D-6TL       MT48LC4M32B2           TSOP86                memory-micron (fixed) 5
+U19      EP3C25P240            EP3C25P240             PQFP240               Misc PLD              5
+U20      SI5351ABGT            SI5351ABGT             MSOP-10               Misc Clock            6
+U21      TSH344ID              TSH344ID               SO-8                  Misc Analog           6
+Y1       8Y-25.000MAAV-T       XTAL_XRCGB             XTAL_2.0X1.6          Misc Clock            3
+Y2       TSX-3225 24MHz        XTAL_XRCGB             XTAL_2.0X1.6          Misc Clock            4
+Y3       32.768kHz             XTAL_9HT4              9HT7                  Misc Clock            4
+Y4       XRCGB 25MHz           XTAL_XRCGB             XTAL_2.0X1.6          Misc Clock            6

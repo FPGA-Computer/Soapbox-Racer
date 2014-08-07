@@ -1,0 +1,36 @@
+This covers the project licenses which is quite a mess. This is a
+limited open sourced hardware project with some commerial values and the
+firmware/ FPGA side of it is dependent on various sources e.g. MPU/compiler 
+vendor and various open source projects and my own modifications. 
+
+Some of the more restrictive files (e.g. PCB layout, 3D model) are to
+prevent my work being used for someone else's financial gain. e.g.
+Chinese clones, Kickstarter scams 
+
+See: SOAP misusing Bunnie's Novena board as its own PCB rendering in Kickstarter.
+http://hackaday.com/2014/03/07/soap-the-home-automation-router-and-kickstarter-scam/
+
+Even if I wanted to, I can't give away the schematic/layout files for
+commerial purposes unless/until I have a EagleCAD commerial license. So
+basically the CAD files all have to be non-commerial with Attribution.
+
+By all means explore the layout/3D models or learn about circuits for
+educational purposes. I don't intend to take away those rights.
+
+I am hoping to relax the hardware rights when/if I get a clearer picture
+of the commerial side. Can't exactly give everything away right now.
+
+Schematic design: Creative Commons  4.0 Attribution-NonCommercial
+Board layout: (C) Copyrights 2014 all reserved by K. C. Lee
+3D modelling: Creative Commons  4.0 Attribution-NonCommercial-NoDerivs
+
+http://creativecommons.org/licenses/by-nc/4.0/
+
+Firmware/FPGA core: mixed based on the copyrights of the original
+owners. I'll try to make my code compatible to the contributed source 
+code whenever.
+
+Note:
+MiST is the project that gave me the inspiration. Only pdf file are
+available, but I learnt from it and designing my own completely from
+scratch.
