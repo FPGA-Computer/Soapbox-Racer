@@ -1565,10 +1565,10 @@ typedef struct
 #define SPIx_SR_TFFF              ((uint32_t)0x02000000)     // Transmit FIFO Fill Flag
 #define SPIx_SR_RFOF              ((uint32_t)0x00080000)     // Receive FIFO Overflow Flag
 #define SPIx_SR_RFDF              ((uint32_t)0x00020000)     // Receive FIFO Drain Flag
-#define SPIx_SR_TXCTR             (((n) & 15) << 12)         // TX FIFO Counter
-#define SPIx_SR_TXNXPTR           (((n) & 15) << 8)          // Transmit Next Pointer
-#define SPIx_SR_RXCTR             (((n) & 15) << 4)          // RX FIFO Counter
-#define SPIx_SR_POPNXTPTR         ((n) & 15)                 // POP Next Pointer
+#define SPIx_SR_TXCTR(n)          (((n) & 15) << 12)         // TX FIFO Counter
+#define SPIx_SR_TXNXPTR(n)        (((n) & 15) << 8)          // Transmit Next Pointer
+#define SPIx_SR_RXCTR(n)          (((n) & 15) << 4)          // RX FIFO Counter
+#define SPIx_SR_POPNXTPTR(n)      ((n) & 15)                 // POP Next Pointer
 
 /***********  Bits definition for SPIx_SR register  *************/
 #define SPIx_RSER_TCF_RE         ((uint32_t)0x80000000)      // Transmission Complete Request Enable
