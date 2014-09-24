@@ -1,0 +1,17 @@
+Files in this directory are what I have customized and
+I do not use the os version.
+
+dma-spi_lld.c   <-- my version of spi.  not fully debugged.
+i2c_lld.c  	<-- my version of i2c that I call directly
+rtc.c  		<-- some of the rtc init routine.  
+		I have not worked on the rtc conversion code yet.
+
+power.c  	<-- my code for putting the board in sleep mode 
+		and wake up the board from a I/O pin.
+
+pal_lld.c	<-- my version of _pal_lld_setpadmode() as I 
+		needed port pin combinations not available.
+
+board.c		<-- my code for detecing MicroSD from /Sel line
+		details here: https://hackaday.io/project/1347/log/9878-microsd
+

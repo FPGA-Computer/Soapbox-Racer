@@ -1,0 +1,44 @@
+Defect: #1
+Level: serious
+USB Connector (from con-usb-2.lbr) does not match pinout of FCI connector!
+Pin 1 location is wrong and all pins are affected.
+See pdf.
+
+Defect: #2
+Level: low
+Supercap copper footprint is different than layout.  Triangular pad top stop 
+opening is square on actual copper.  Board house changed the pad.
+
+Defect: #3
+Level: low
+LED center of gravity is outside the PCB.
+
+Defect: #4
+Level: low
+Need pull up for /HDD_LED when ATA HDD is not connected to board.
+Amber LED is on all the time when that happens.
+
+Defect: #5
+Level low
+AUD_EN pull down changed to 4K7 as uninitialized FPGA default internal 
+pull up is too strong.  Pin was at ~1V previously, now at 0.495V.  Part is 
+to disable audio until FPGA gets configured as CODEC has dynamic logic 
+and requires a clock.
+
+Defect: #6
+Level: medium
+SPI FLASH is 208 mils SOIC8.
+
+Defect #7
+
+Level: Major
+
+ATAPI connector pin 42 is +5V (motor) not GND.
+
+Defect#8
+
+Level: Minor
+
+PTC for HDD has too much voltage drop during startup.   Replace PTC1 with 
+a 1.5A 06012 slow blow fuse or 0 ohm jumper and rely on the AP2511 short 
+circuit protection on the +UB rail.
