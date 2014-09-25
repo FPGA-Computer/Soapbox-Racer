@@ -136,6 +136,12 @@ const PALConfig pal_default_config=
 };
 #endif
 
+/**
+ * @brief   Early initialization code.
+ * @details This initialization must be performed just after stack setup
+ *          and before any other initialization.
+ */
+
 void __early_init(void)
 {
   /* Enable minimum clocking */
@@ -177,7 +183,7 @@ bool mmc_lld_is_card_inserted(MMCDriver *mmcp) {
   osalSysLock();
   pal_lld_setpadmode(IOPORTC,PORTC_SPI_SEL2,PIN_GPIO_INP);
   
-  for(i=0x40;i;i--)
+  for(i=MMC_POLL_WAIT;i;i--)
     ;
   
   portvalue= GPIO_PTR(IOPORTC)->PDIR;
