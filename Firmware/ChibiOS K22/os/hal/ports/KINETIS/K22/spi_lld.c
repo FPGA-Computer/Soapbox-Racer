@@ -60,9 +60,9 @@ SPIDriver SPID1;
 /* Driver local functions.                                                   */
 /*===========================================================================*/
 
-volatile uint8_t dmaTxDummy, dmaRxDummy;
+volatile uint16_t dmaTxDummy, dmaRxDummy;
 
-static void spi_start_xfer(SPIDriver *spip, bool polling)
+static void spi_start_xfer(SPIDriver *spip)
 {
   /*
    * Enable the DSPI peripheral in master mode.
@@ -70,15 +70,15 @@ static void spi_start_xfer(SPIDriver *spip, bool polling)
    * */
   spip->spi->MCR = SPIx_MCR_MSTR | SPIx_MCR_CLR_TXF | SPIx_MCR_CLR_RXF;
 
-  /* If we are not polling then enable DMA */
-  if (!polling) {
+  /* not polling */
+  {
     
     /* Enable receive dma and transmit dma */
     spip->spi->RSER = SPIx_RSER_RFDF_DIRS | SPIx_RSER_RFDF_RE |
         SPIx_RSER_TFFF_RE | SPIx_RSER_TFFF_DIRS;
 
     /* Use dmaDummy as the source/destination when a buffer is not provided */
-    dmaTxDummy = dmaRxDummy = 0xff;
+    dmaTxDummy = SPI_IGNORE_SENDBYTE;
 
     /* Configure RX DMA */
     if (spip->rxbuf) {
@@ -139,7 +139,6 @@ static void spi_lld_serve_rx_interrupt(SPIDriver *spip)
 void spi_lld_init(void) {
 #if KINETIS_SPI_USE_SPI0
   spiObjectInit(&SPID1);
-
 #endif
 }
 
@@ -171,7 +170,7 @@ void spi_lld_start(SPIDriver *spip) {
   
     // can't allocate DMA channels!?
     chDbgAssert((SPID1.DMA_Rx==DMA_NONE_AVAIL)||
-                 (SPID1.DMA_Tx==DMA_NONE_AVAIL),"No DMA Ch.");
+                (SPID1.DMA_Tx==DMA_NONE_AVAIL),"No DMA Ch.");
  
     nvicEnableVector(DMA0_IRQn+spip->DMA_Rx,KINETIS_SPI0_IRQ_PRIORITY);
   }
@@ -301,7 +300,7 @@ void spi_lld_ignore(SPIDriver *spip, size_t n) {
   spip->rxbuf = NULL;
   spip->txbuf = NULL;
 
-  spi_start_xfer(spip, false);
+  spi_start_xfer(spip);
 }
 
 /**
@@ -326,7 +325,7 @@ void spi_lld_exchange(SPIDriver *spip, size_t n,
   spip->rxbuf = rxbuf;
   spip->txbuf = txbuf;
 
-  spi_start_xfer(spip, false);
+  spi_start_xfer(spip);
 }
 
 /**
@@ -348,7 +347,8 @@ void spi_lld_send(SPIDriver *spip, size_t n, const void *txbuf) {
   spip->rxbuf = NULL;
   spip->txbuf = (void *)txbuf;
 
-  spi_start_xfer(spip, false);
+  spi_start_xfer(spip);
+  
 }
 
 /**
@@ -370,7 +370,7 @@ void spi_lld_receive(SPIDriver *spip, size_t n, void *rxbuf) {
   spip->rxbuf = rxbuf;
   spip->txbuf = NULL;
 
-  spi_start_xfer(spip, false);
+  spi_start_xfer(spip);
 }
 
 /**
@@ -387,7 +387,7 @@ void spi_lld_receive(SPIDriver *spip, size_t n, void *rxbuf) {
  */
 uint16_t spi_lld_polled_exchange(SPIDriver *spip, uint16_t frame) {
 
-  spi_start_xfer(spip, true);
+  spi_start_xfer(spip);
 
   spip->spi->PUSHR = SPIx_PUSHR_TXDATA(frame);
 
